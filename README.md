@@ -1,4 +1,6 @@
 # Rebels L2P Nodes (Z-Image-Turbo) for ComfyUI
+<img width="1496" height="898" alt="Screenshot (125)" src="https://github.com/user-attachments/assets/b770f6f0-8d71-45f3-9afc-b3632661e05e" />
+
 
 A custom node suite for running Latent-to-Pixel (L2P) generation using Z-Image-Turbo directly inside ComfyUI. 
 
