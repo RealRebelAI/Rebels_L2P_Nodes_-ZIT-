@@ -55,6 +55,5 @@ Resolution & Upscaling (Crucial): Pixel-space generation calculates attention ac
 Recommended Workflow: Set your L2P Generate width/height to 512x512. Then, route the IMAGE output into a standard ComfyUI Latent Upscale workflow to achieve your 1024x1024 final image cleanly and quickly.
 
 ⚠️ Known Limitations
-Text Encoder Nuke Toggle: The generator node includes an experimental nuke_text_encoder switch. Leave this False. Deleting the encoder mid-generation to save RAM causes diffsynth to throw an AttributeError, as it hardcodes the prompt encoding within its internal loop.
 
 Hardware Requirements: Generating with these nodes requires a minimum of 16GB of system RAM for offloading, alongside a healthy Windows Pagefile (40GB+ recommended) to prevent memory-spill crashing.
