@@ -31,9 +31,15 @@ Because this uses a non-native text encoder setup, your models must be placed in
 Main DiT Model: Place your merged .safetensors file (e.g., model-1k-merge.safetensors) into:
 ComfyUI/models/diffusion_models/
 
+https://huggingface.co/zhen-nan/L2P/blob/main/model-1k-merge.safetensors
+
+
 Text Encoders (Qwen): Create a folder for the shards and place them here:
 ComfyUI/models/text_encoders/Z-Image-Turbo/text_encoder/
 (Note: You must use the official split shards, e.g., model-00001-of-00003.safetensors. Pruned single-file encoders missing the lm_head will crash the pipeline).
+
+https://huggingface.co/Tongyi-MAI/Z-Image-Turbo/tree/main/text_encoder
+
 
 🚀 Step-by-Step Usage Guide
 Load the Pipeline: Add the L2P Pipeline Loader (Rebel) node to your workspace.
