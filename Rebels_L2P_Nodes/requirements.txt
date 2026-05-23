@@ -1,0 +1,11 @@
+# The L2P pipeline lives in TencentYoutuResearch/T2I-L2P. Install it into the
+# ComfyUI python env first:
+#   git clone https://github.com/TencentYoutuResearch/T2I-L2P
+#   cd T2I-L2P && pip install -e .
+#
+# Supporting libs (usually already in ComfyUI):
+safetensors
+einops
+transformers
+pillow
+numpy
